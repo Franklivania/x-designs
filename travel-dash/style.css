@@ -36,11 +36,19 @@ html,
 body {
   position: relative;
   width: var(--width);
+  max-width: 86em;
+  margin: 0 auto;
   height: var(--height);
   overflow: hidden;
   background: var(--white);
   padding: 0 5%;
   font-family: var(--font-family);
+
+  /* #display {
+    width: var(--width);
+    height: max-content;
+    overflow: hidden;
+  } */
 
   header {
     width: inherit;
@@ -100,9 +108,14 @@ body {
     position: relative;
     width: var(--width);
     height: calc(var(--height) * 0.85);
+    max-height: max-content;
     background: url("/assets/bg.jpg") no-repeat center/cover;
     border-radius: var(--sm-border-radius);
     /* overflow: hidden; */
+
+    @media (min-width: 1400px) {
+      height: calc(var(--height) * 0.7);
+    }
 
     main {
       position: relative;
