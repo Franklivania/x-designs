@@ -364,23 +364,23 @@ body {
         gap: 0 0.5em;
 
         p {
-          font-weight: 700;
           color: var(--slate);
           z-index: 2;
-
+          
           span {
             background: var(--purple-gradient);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
             -webkit-text-fill-color: transparent;
+            font-weight: 700;
           }
         }
       }
 
       #left-banner {
         position: relative;
-        margin: 45% 0 0 -2%;
+        margin: 44% 0 0 -2%;
 
         img {
           margin: 0 0 0 1em;
@@ -395,7 +395,7 @@ body {
           border-bottom: 1em solid var(--white);
           border-left: 1em solid var(--white);
           border-radius: 0 0 0 3em;
-          bottom: 0.3em;
+          bottom: -0.05em;
           right: -3em;
         }
 
@@ -429,7 +429,6 @@ body {
           width: 2em;
           height: 2em;
           border-radius: 100%;
-          /* margin: 0.7em 0 0 0; */
         }
 
         &::before {
