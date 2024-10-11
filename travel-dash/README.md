@@ -6,6 +6,8 @@
 ![Hike.com dashboard design](./assets/hike-design.png)
 *The design I implemented*
 
+**[Live Site](https://franklivania-hike.netlify.app/)**
+
 If you want the design, you can download from here, or you can go to twitter to get [the design](https://x.com/Ayomide0_/status/1819795337344921988). Also remember to give her accolades to her.
 
 ### Issues I faced
